@@ -1,2 +1,10 @@
 # Work-project-1
-This is the PRIVATE code of my project from work.
+Task:
+To build a website according to the layout in FIgma.
+Integrate the layout into Wordpress.
+
+Technology Stack:
+
+
+Tools:
+Visual Studio Code,
