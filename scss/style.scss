@@ -1,0 +1,3153 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+.header {
+  padding-top: 30px;
+  margin-bottom: 150px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 44px;
+  }
+}
+.menu__option {
+  display: none;
+}
+.menu {
+  &__list {
+    display: flex;
+  }
+  &__list-item {
+    margin-right: 40px;
+  }
+  &__list-item:last-child {
+    margin-right: 0;
+  }
+  &__list-link {
+    @extend %text1;
+  }
+}
+
+.link-block {
+  display: flex;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  &__link-img {
+    color: #848484;
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  &__link-tg {
+    margin-right: 20px;
+  }
+  &__link-vk {
+    margin-right: 34px;
+  }
+}
+
+.call {
+  &__phone {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  &__phone-img {
+    margin-right: 10px;
+  }
+  &__phone-number {
+    @extend %text1;
+  }
+  &__callback-text {
+    color: #F6705F;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+}
+
+.slider {
+  width: 100%;
+  height: 870px;
+  margin-bottom: 64px;
+  background-color: #c4c4c4;
+}
+.sl__content {
+  display: none;
+}
+
+.link-block__searchsec {
+  display: flex;
+}
+.menu__option {
+  display: flex;
+}
+.fourth__link-soc {
+  display: flex;
+}
+.call__phone-number {
+  padding-top: 16px;
+  margin-right: 20px;
+}
+.s__content{
+  display: none;
+}
+.work {
+  display: flex;
+  align-items: center;
+  height: 696px;
+  margin-top: -90px;
+  margin-bottom: 60px;
+  &__left {
+    margin-right: 143px;
+  }
+  &__block {
+    width: 700px;
+    height: 604px;
+    margin-bottom: 30px;
+  }
+  &__button {
+    border: 1px solid #0071F1;
+    background-color: inherit;
+    border-radius: 10px;
+  }
+  &__title {
+    position: relative;
+    margin-bottom: 43px;
+    margin-left: 20px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  &__text-top {
+    margin-bottom: 25px;
+  }
+  &__text-center {
+    margin-bottom: 25px;
+  }
+
+  &__all {
+    display: flex;
+    align-items: center;
+    width: 257px;
+    height: 20px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  &__button-text {
+    margin-right: 10px;
+    color: #0071FF;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  &__button-img {
+    width: 35px;
+    height: 17px;
+  }
+  &__circles1 {
+    z-index: 2;
+    position: relative;
+    top: 175px;
+    right: -188px;
+    transition: 1s;
+  }
+  &__circles1:hover {
+    transform: scale(1.1);
+  }
+  &__circles2 {
+    z-index: 1;
+    position: relative;
+    top: 17px;
+    right: 66px;
+    transition: 1s;
+  }
+  &__circles2:hover {
+    transform: scale(1.1);
+  }
+  &__circles3 {
+    z-index: 2;
+    position: relative;
+    top: -174px;
+    right: -188px;
+    transition: 1s;
+  }
+  &__circles3:hover {
+    transform: scale(1.1);
+  }
+}
+
+.colortext {
+  color: #F6705F;
+}
+
+.text-block {
+  color: #241D26;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: 0.72px;
+}
+.call__phone-img {
+  padding-top: 19px;
+}
+.help {
+  &__block:hover {
+    transition: 1s;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  &__title {
+    margin-bottom: 53px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  &__block {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 2px 4px 20px 0px rgba(132, 132, 132, 0.50);
+  }
+  &__blocks {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__block-top {
+    width: 460px;
+    height: 452px;
+  }
+  &__block-bottom {
+    width: 705px;
+    height: 322px;
+  }
+  &__block-images {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__block-promotion {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  &__img-calculate{
+    width: 148px;
+    height: 110px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  &__block-title {
+    margin-bottom: 20px;
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.88px;
+  }
+  &__block-text {
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: 0.72px;
+    width: 393px;
+    height: 120px;
+  }
+  &__block-textotchet {
+    margin-bottom: 61px;
+  }
+  &__button {
+    width: 197px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #0071F1;
+    background: #0071F1;
+    cursor: pointer;
+  }
+  &__button-text {
+    color: #FFFFFF;
+  }
+  &__block-bux {
+    margin-right: 30px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+  }
+  &__block-tbux {
+    width: 411px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  &__block-imgbux {
+    margin-bottom: 30px;
+  }
+  &__block-el {
+    padding-top: 25px;
+  }
+  &__block-imgel {
+    margin-bottom: 20px;
+  }
+  &__block-textel {
+    width: 420px;
+    height: 144px;
+    margin-bottom: 36px;
+  }
+  &__blockdok {
+    display: flex;
+    padding-top: 25px;
+    margin-right: 30px;
+  }
+  &__block-textdoc {
+    margin-bottom: 55px;
+    width: 530px;
+    height: 125px;
+  }
+  &__blockfile {
+    width: 110px;
+    height: 110px;
+    margin-right: 25px;
+  }
+  &__blockbux {
+    display: flex;
+    padding-top: 25px;
+  }
+  &__block-imgcase {
+    width: 110px;
+    height: 86px;
+    margin-right: 25px;
+  }
+  &__block-textbux {
+    width: 530px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  &__blocknul {
+    margin-right: 30px;
+  }
+  &__all {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 75px;
+  }
+  &__all-button {
+    margin-top: 45px;
+    width: 215px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #0071F1;
+    background: inherit;
+    cursor: pointer;
+  }
+  &__all-text {
+    color: #07F;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+  }
+}
+
+.story {
+  margin-bottom: 60px;
+  &__title {
+    margin-bottom: 40px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  &__blocks {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  &__block1 {
+    margin-right: 30px;
+  }
+  &__block3 {
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+  &__block {
+    display: flex;
+    width: 705px;
+    height: 434px;
+    border-radius: 10px;
+    background-color: #FFF;
+    filter: drop-shadow(2px 4px 25px rgba(132, 132, 132, 0.40));
+    transition: 1s;
+  }
+  &__block:hover {
+    transform: scale(1.01);
+  }
+  &__right {
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+  &__block-title {
+    margin-bottom: 20px;
+    color: #0C1D3B;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &__block-text {
+    width: 307px;
+    height: 241px;
+    margin-bottom: 40px;
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__who {
+    display: flex;
+    justify-content: space-between;
+    width: 322px;
+    height: 18px;
+  }
+  &__who-name {
+    width: 243px;
+    height: 18px;
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+  &__who-date {
+    width: 56px;
+    height: 17px;
+    color: #848484;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.say {
+  &-slider {
+    margin-bottom: 70px;
+  }
+  &__title {
+    margin-bottom: 28px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  &-slider__info {
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    background-image: url(../images/src/fone.png);
+    width: 582px;
+    height: 362px;
+    transform: translateX(20%);
+  }
+  &-slider__block {
+    display: flex;
+  }
+  &-slider__slide {
+    display: flex;
+    max-width: 735px;
+  }
+  &-slider__img {
+    height: 93px;
+  }
+  &-slider__image {
+    width: 93px;
+    height: 93px;
+    top: 0px;
+  position: absolute;
+  }
+  &-slider__name{
+    margin-right: 74px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 374px;
+  }
+  &-slider__date-text {
+    color: #241D26;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &-slider__all {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  &-slider__work {
+    margin-bottom: 30px;
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &-slider__text {
+    margin-bottom: 40px;
+    width: 542px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &-slider__bottom {
+    display: flex;
+    align-items: center;
+  }
+  &-slider__brand {
+    margin-right: 79px;
+  }
+  &-slider__thanks {
+    display: flex;
+  }
+  &-slider__thanks-text {
+    margin-right: 20px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &-slider__arrow {
+    width: 47px;
+    height: 23px;
+  }
+  &-slider__block {
+    position: relative;
+  }
+  &-content {
+    margin: auto;
+    width: 100%;
+    max-width: 1470px;
+    box-sizing: border-box;
+  }
+}
+
+.prev1 {
+  top: 397px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.next2 {
+  left: 60px;
+  top: 397px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 80px;
+  &__left {
+    margin-right: 153px;
+    width: 583px;
+  }
+  &__contact {
+    @extend %title1;
+    margin-bottom: 40px;
+  }
+  &__email {
+    @extend %title2;
+    margin-bottom: 20px;
+  }
+  &__send-email {
+    @extend %text-style;
+    margin-bottom: 46px;
+    font-size: 22px;
+  }
+  &__number {
+    margin-bottom: 20px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.05px;
+  }
+  &__social {
+    display: flex;
+    margin-bottom: 14px;
+  }
+  &__social-tg {
+    margin-right: 29px;
+  }
+  &__write {
+    @extend %text-style;
+    margin-bottom: 40px;
+    font-size: 22px;
+  }
+  &__link-img {
+    width: 51px;
+    height: 51px;
+  }
+  &__call-phone {
+      @extend %text-style;
+      margin-bottom: 40px;
+      font-size: 22px;
+  }
+  &__office-title {
+    margin-bottom: 15px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__office-addres {
+    @extend %text-style;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  &__right {
+    width: 705px;
+  }
+  &__application-title {
+    @extend %title1;
+    margin-bottom: 31px;
+  }
+  &__application-text {
+    margin-bottom: 40px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__name-text {
+    margin-bottom: 15px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__input {
+    border-radius: 10px;
+    border: 1px solid rgba(36, 29, 38, 0.50);
+    background: rgba(255, 255, 255, 0.00);
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__form {
+    margin-bottom: 40px;
+  }
+  &__task-text {
+    margin-bottom: 15px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__button {
+    margin-bottom: 30px;
+  }
+  &__btn {
+    width: 215px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #0071F1;
+    background: #0071F1;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+  }
+  &__button-text {
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__map {
+    width: 583px;
+    height: 334px;
+
+  }
+}
+
+.input {
+  &__name {
+    width: 704px;
+    height: 60px;
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-bottom: 20px;
+  }
+  &__number {
+    width: 337px;
+    height: 60px;
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-bottom: 19px;
+  }
+  &__email {
+    width: 337px;
+    height: 60px;
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-bottom: 19px;
+  }
+  &__task {
+    display: flex;
+    align-items: flex-start;
+    width: 704px;
+    height: 150px;
+    padding-top: 16px;
+    padding-left: 17px;
+    padding-bottom: 79px;
+  }
+}
+
+.footer {
+  display: flex;
+  height: 298px;
+  }
+
+.first {
+  margin-right: 216px;
+  &__logo {
+    margin-bottom: 126px;
+  }
+  &__text {
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.second {
+  margin-right: 158px;
+  &__info {
+    margin-bottom: 20px;
+    color: #848484;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__link {
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  &__item {
+    margin-bottom: 15px;
+  }
+  &__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.third {
+  margin-right: 196px;
+  &__info {
+    margin-bottom: 20px;
+    color: #848484;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__link {
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  &__item {
+    margin-bottom: 15px;
+  }
+  &__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.fourth {
+  &__contact {
+    margin-bottom: 20px;
+    color: #848484;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__email {
+    margin-bottom: 15px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__number {
+    margin-bottom: 30px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__block {
+    display: flex;
+  }
+  &__form {
+    margin-right: 20px;
+  }
+  &__link-tg {
+    margin-right: 20px;
+  }
+  &__link-img {
+    width: 35px;
+    height: 35px;
+  }
+  &__block {
+    display: flex;
+    align-items: center;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-bottom: 15px;
+    width: 227px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #0071F1;
+    background: #FFF;
+    cursor: pointer;
+  }
+  &__phone {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  &__call {
+    color: #07F;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+  }
+}
+
+.swiper {
+  &__title {
+    margin-top: 26px;
+    margin-bottom: 20px;
+    margin-left: 240px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  &__title1 {
+   width: 710px;
+
+  }
+  &__text {
+    margin-bottom: 40px;
+    margin-left: 240px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+  }
+  &__all {
+    display: flex;
+    align-items: center;
+    
+  }
+  &__button {
+    margin-bottom: 311px;
+    margin-left: 240px;
+    width: 496px;
+    height: 70px;
+    border: 2px solid #F6705F;
+    background: #F6705F;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  &__button-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+  &__button-img {
+    width: 46px;
+    height: 23px;
+  }
+}
+.slider-box {
+  position: relative;
+  margin-bottom: 500px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 200px;
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.next {
+  top: 640px;
+  right: 1540px;
+}
+.prev {
+  top: 640px;
+  right: 1600px;
+}
+.slick-arrow {
+  width: 40px;
+  height: 40px;
+}
+
+.content {
+  margin-bottom: 64px;
+  max-width: 100%;
+  height: 870px;
+}
+
+.slider {
+  background-image: url(../images/src/bg.png);
+  background-position: right 1px bottom 145px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+.call__phone-red {
+  display: none;
+  
+}
+.btn-rightside {
+display: none;
+
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 500px;
+  top: 11px;
+  position: relative;
+  li{
+    margin-right: 5px;
+  }
+  button {
+    border-radius: 130px;
+    border: 1px solid #AFAFAF;
+    background-color: #FFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 0;
+  }
+  li.slick-active {
+    button{
+      background-color: #F6705F;
+    }
+  }
+  .link-block__searchsec {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:1280px) {
+
+  .call__phone-red {
+    display: none;
+    }
+    .btn-rightside {
+    display: none;
+    }
+
+  .s__content {
+    display: none;
+  }
+
+  .header {
+    padding-top: 15px;
+    margin-bottom: 20px;
+  }
+  .logo {
+    margin-left: 20px;
+    width: 165px;
+    height: 30px;
+  }
+  .fourth__links-soc {
+    display: flex;
+  }
+  .content {
+    max-height: 425px;
+  }
+  .menu {
+    display: none;
+  }
+  .container {
+    width: 1180px;
+  }
+  .search {
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+  }
+  .link-block__searchsec {
+    display: flex;
+    align-items: center;
+  }
+
+  .social {
+    &__link-img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  .call {
+    &__phone-number {
+      font-size: 14px;
+    }
+  }
+  .slider {
+    margin-bottom: 0;
+    .slick-dots {
+      right: 398px;
+      top: 50px;
+    }
+  }
+  .work{
+    margin-top: -200px;
+    margin-bottom: 0;
+  }
+  .swiper {
+
+    &__title {
+      width: 575px;
+      font-size: 35px;
+      margin-left: 50px;
+      margin-bottom: 20px;
+    }
+    &__text {
+      margin-left: 50px;
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+    &__button {
+      margin-left: 50px;
+      width: 393px;
+      height: 60px;
+    }
+    &__button-text {
+      margin-left: 8px;
+      margin-right: 8px;
+      font-size: 20px;
+    }
+    &__button-img {
+      color: #f6705f;
+      display: none;
+    }
+  }
+  .next {
+    right: 1130px;
+  }
+  .prev {
+    right: 1190px;
+  }
+  .slick-dots {
+    right: 385px;
+    top: 9px;
+  }
+
+    .search {
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+  }
+  .link-block__searchsec {
+    display: flex;
+    align-items: center;
+  }
+
+  .social {
+    &__link-img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  .call {
+    &__phone-number {
+      padding-top: -7px;
+      font-size: 14px;
+    }
+    &__phone-img {
+      padding-top: 17px;
+    }
+  }
+  
+  
+  .next {
+    right: 1115px;
+  }
+  .prev {
+    right: 1175px;
+  }
+  .slick-dots {
+    right: 410px;
+    top: 9px;
+  }
+  .work {
+    margin-top: 255px;
+    display: flex;
+    &__right {
+      width: 500px;
+    }
+    &__left {
+      margin-right: 81px;
+      width: 524px;
+    }
+    &__block {
+      height: 390px;
+    }
+    &__title {
+      width: 575px;
+      height: 80px;
+      font-size: 35px;
+      margin-bottom: 30px;
+    }
+    &__text-top {
+      width: 575px;
+      font-size: 14px;
+    }
+    &__text-center {
+      width: 575px;
+      font-size: 14px;
+    }
+    &__text-bottom {
+      width: 575px;
+      font-size: 14px;
+    }
+    &__button {
+      margin-top: 70px;
+    }
+    
+    &__circles1 {
+      right: -300px;
+      width: 250px;
+      height: 250px;
+    }
+    &__circles2 {
+      right: -10px;
+      width: 373px;
+      height: 373px;
+    }
+    &__circles3 {
+      right: -300px;
+      width: 250px;
+      height: 250px;
+    }
+  }
+  .sl__content {
+    display: none;
+  }
+  .help {
+    &__all {
+      margin-bottom: 40px
+    }
+    &__title {
+      margin-bottom: 30px;
+    }
+    &__title-text {
+      font-size: 35px;
+    }
+    &__block-top {
+      width: 373px;
+      height: 409px;
+    }
+    &__block-bottom {
+      width: 575px;
+      height: 301px;
+    }
+    &__block-imgbux {
+      width: 92.4px;
+      height: 110px;
+    }
+    &__block-title {
+      font-size: 20px;
+    }
+    &__block-tbux {
+      margin-bottom: 20px;
+      width: 333px;
+      height: 120px;
+      font-size: 14px;
+    }
+    &__block-img-calculate {
+      width: 92.4px;
+      height: 110px;
+    }
+    &__block-textotchet {
+      margin-bottom: 12px;
+      width: 333px;
+      height: 111px;
+      font-size: 14px;
+    }
+    &__block-textel {
+      margin-bottom: 12px;
+      width: 333px;
+      height: 111px;
+      font-size: 14px;
+    }
+    &__block-textdoc {
+      margin-bottom: 12px;
+      width: 384px;
+      height: 111px;
+      font-size: 14px;
+      margin-bottom: 50px;
+    }
+    &__block-textbux {
+      margin-bottom: 12px;
+      width: 384px;
+      height: 111px;
+      font-size: 14px;
+      margin-bottom: 50px;
+    }
+  }
+  .story {
+    &__block {
+      max-width: 575px;
+      height: 383px;
+    }
+    &_images{
+      width: 273px;
+      height: 383px;
+    }
+    &__right {
+      width: 302px;
+      height: 383px;
+    }
+    &__block-title {
+      font-size: 18px;
+    }
+    &__block-text {
+      width: 252px;
+      max-height: 208px;
+      font-size: 14px;
+    }
+    &__who {
+      display: flex;
+      justify-content: start;
+    }
+    &__who-name {
+      margin-right: 67px;
+      font-size: 12px;
+      width: 129px;
+    }
+  }
+  .say-content {
+    .slick-dots {
+      right: 385px;
+      top: 9px;
+    }
+  }
+  .say {
+    &-slider__info {
+      width: 488px;
+    }
+    &-slider__slide {
+      width: 474px;
+      height: 328px;
+    }
+    &-slider__name {
+      margin-right: 0;
+      font-size: 18px;
+      width: 350px;
+    }
+    &-slider__work {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    &-slider__text {
+      font-size: 14px;
+      width: 434px;
+      height: 124px;
+    }
+    &-slider__brand {
+      margin-right: 76px;
+      width: 130px;
+      height: 34px;
+    }
+    &-slider__thanks-text {
+      font-size: 14px;
+    }
+    &-slider__arrow {
+      width: 31px;
+      height: 16px;
+    }
+  }
+
+  .info {
+    &__contact {
+      margin-bottom: 40px;
+      font-size: 35px;
+    }
+    &__email {
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
+    &__send-email {
+      margin-bottom: 31px;
+      font-size: 16px;
+    }
+    &__number {
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
+    &__call-phone {
+      margin-bottom: 29px;
+      font-size: 16px;
+    }
+    &__link-img {
+      width: 25px;
+      height: 25px;
+    }
+    &__social-tg {
+      margin-right: 10px;
+    }
+    &__office-title {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    &__office-addres {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    &__map {
+      width: 575px;
+      height: 334px;
+    }
+    &__left {
+      margin-right: 30px;
+    }
+    &__application-title {
+      margin-bottom: 40px;
+      width: 575px;
+      font-size: 35px;
+    }
+    &__application-text {
+      margin-bottom: 30px;
+      width: 575px;
+      font-size: 16px;
+    }
+    &__name-text {
+      font-size: 18px;
+    }
+    &__number-form {
+      margin-right: 30px;
+      width: 272px;
+    }
+    &__email-form {
+      width: 272px;
+    }
+    &__form {
+      width: 272px;
+    }
+    &__numberemail-block {
+      display: flex;
+    }
+    &__task-text {
+      font-size: 18px;
+    }
+    &__input {
+      width: 574px;
+      height: 100px;
+      font-size: 14px;
+    }
+    &__button {
+      margin-bottom: 10px;
+    }
+    &__btn {
+      width: 215px;
+      height: 40px;
+      font-size: 16px;
+    }
+    &__button-text {
+      font-size: 14px;
+    }
+  }
+  .input {
+    &__name {
+      width: 574px;
+      height: 40px;
+      font-size: 14px;
+    }
+    &__number {
+      margin-right: 30px;
+      width: 272px;
+      height: 40px;
+    }
+    &__email {
+      width: 272px;
+      height: 40px;
+    }
+    &__phone-w {
+      width: 272px;
+    }
+  }
+
+  .footer {
+    height: 205px;
+    &__info {
+      font-size: 30px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+  }
+
+  .first {
+    margin-right: 129px;
+    &__logo {
+      margin-bottom: 138px;
+      width: 172px;
+      height: 32px;
+    }
+    &__text {
+      width: 274px;
+      height: 19px;
+      font-size: 16px;
+    }
+  }
+  .second {
+    margin-right: 114px;
+  }
+  .third {
+    margin-right: 132px;
+  }
+  .fourth {
+    &__link-img {
+      max-width: 25px;
+      height: 25px;
+    }
+    &__btn {
+      width: 187px;
+      height: 40px;
+    }
+    &__call {
+      width: 141px;
+      height: 17px;
+      font-size: 13px;
+    }
+    &__phone {
+      margin-right: 10px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .s__content{
+    display: none;
+  }
+}
+
+@media screen and (max-width:834px) {
+  .help__blocks {
+    margin-left: 10px;
+  }
+  .sl__content{
+    display: flex;
+  }
+  .menu__option {
+    display: none;
+  }
+  .header {
+    padding-top: 15px;
+    margin-bottom: 20px;
+  }
+  .logo {
+    margin-left: 20px;
+    width: 174px;
+    height: 32px;
+  }
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 834px;
+  }
+  .search {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .link-block__searchsec {
+    display: flex;
+    align-items: center;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .call {
+    &__phone-number {
+      font-size: 14px;
+    }
+    &__phone-link {
+      display: none;
+    }
+    &__callback-text {
+      display: none;
+    }
+  }
+  .slider {
+    margin-bottom: 0;
+  }
+  .content {
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      right: 190px;
+      top: -14px;
+      position: relative;
+    }
+  }
+  .prev {
+    right: -54px;
+    top: 646px;
+    position: relative;
+  }
+  .next {
+    right: -100px;
+    top: 12px;
+    position: relative;
+  }
+  .swiper {
+    &__title {
+      max-width: 550px;
+      font-size: 30px;
+      margin-left: 50px;
+      margin-bottom: 20px;
+    }
+    &__text {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    &__button {
+      width: 357px;
+      height: 50px;
+    }
+    &__button-text {
+      font-size: 18px;
+      margin-left: 12px;
+      margin-right: 13px;
+    }
+    &__button-img {
+      color: #f6705f;
+      width: 31px;
+      height: 15px;
+    }
+  }
+
+  .search {
+  margin-right: 20px;
+  width: 25px;
+  height: 25px;
+  }
+  .link-block__searchsec {
+    display: flex;
+    align-items: center;
+  }
+
+  .social {
+    &__link-img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  .call {
+    &__phone-number {
+      font-size: 14px;
+    }
+  }
+  
+  .slick-dots {
+    right: 386px;
+    top: 9px;
+  }
+
+  .work {
+    display: flex;
+    align-items: center;
+    margin-top: 225px;
+    margin-bottom: 60px;
+    &__left {
+      width: 283px;
+      height: 374px;
+      margin-right: 40px;
+    }
+    &__right {
+      width: 431px;
+      height: 478px;
+    }
+    &__block {
+      width: 431px;
+      margin-bottom: 30px;
+    }
+    &__button {
+      border: 1px solid #0071F1;
+      background-color: inherit;
+      border-radius: 10px;
+      margin-top: 140px;
+    }
+    &__title {
+      margin-bottom: 40px;
+      margin-left: 0;
+      width: 431px;
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 112.9%; /* 33.87px */
+      letter-spacing: 1.2px;
+    }
+    &__text-top {
+      width: 431px;
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 19.6px */
+      letter-spacing: 0.56px;
+      margin-bottom: 25px;
+    }
+    &__text-center {
+      width: 431px;
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 19.6px */
+      letter-spacing: 0.56px;
+      margin-bottom: 25px;
+    }
+    &__text-botton {
+      width: 431px;
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 19.6px */
+      letter-spacing: 0.56px;
+    }
+    &__block-bux {
+      width: 357px;
+      margin-right: 0;
+    }
+    &__block-top {
+      width: 357px;
+      margin-right: 0;
+    }
+    &__all {
+      display: flex;
+      align-items: center;
+      width: 257px;
+      height: 20px;
+      margin: 15px;
+      cursor: pointer;
+    }
+    &__button-text {
+      margin-right: 10px;
+      color: #0071FF;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    &__button-img {
+      width: 35px;
+      height: 17px;
+    }
+    &__circles1 {
+      z-index: 2;
+      position: relative;
+      top: 309px;
+      right: -150px;
+      transition: 1s;
+      max-width: 147px;
+      max-height: 147px;
+    }
+    &__circles1:hover {
+      transform: scale(1.1);
+    }
+    &__circles2 {
+      z-index: 1;
+      position: relative;
+      top: 3px;
+      right: -19px;
+      transition: 1s;
+      width: 238px;
+      height: 238px;
+    }
+    &__circles2:hover {
+      transform: scale(1.1);
+    }
+    &__circles3 {
+      z-index: 2;
+      position: relative;
+      top: -307px;
+      right: -150px;
+      transition: 1s;
+      max-width: 147px;
+      max-height: 147px;
+    }
+    &__circles3:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .help {
+    &__all {
+      margin-bottom: 40px
+    }
+    &__title {
+      font-size: 30px;
+      margin-bottom: 48px;
+    }
+    &__title-text {
+      font-size: 35px;
+    }
+    &__block-top {
+      width: 347px;
+      height: 399px;
+    }
+    &__block-el {
+      margin-right: 20px;
+    }
+    &__blockdok {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      width: 347px;
+      height: 433px;
+    }
+    &__block-el {
+      height: 433px;
+    }
+    &__block-bottom {
+      max-width: 575px;
+    }
+    &__block-imgbux {
+      width: 92.4px;
+      height: 110px;
+    }
+    &__block-title {
+      max-width: 327px;
+      font-size: 20px;
+    }
+    &__block-tbux {
+      margin-bottom: 20px;
+      width: 322px;
+      height: 120px;
+      font-size: 13px;
+    }
+    &__block-img-calculate {
+      width: 92.4px;
+      height: 110px;
+    }
+    &__block-textotchet {
+      margin-bottom: 12px;
+      width: 333px;
+      height: 111px;
+      font-size: 14px;
+    }
+    &__blocknul {
+      width: 347px;
+      margin-right: 20px;
+    }
+    &__block-textel {
+      margin-bottom: 60px;
+      width: 329px;
+      height: 111px;
+      font-size: 14px;
+    }
+    &__block-textdoc {
+      margin-bottom: 12px;
+      width: 327px;
+      height: 120px;
+      font-size: 14px;
+      margin-bottom: 50px;
+    }
+    &__block-textbux {
+      padding-top: 10px;
+      margin-bottom: 12px;
+      width: 384px;
+      height: 111px;
+      font-size: 14px;
+      margin-bottom: 50px;
+    }
+    &__blockfile{
+      margin-bottom: 20px;
+      width: 90px;
+      height: 90px;
+    }
+    &__img-calculate {
+      width: 120px;
+      height: 90px;
+    }
+    &__block-imgbux {
+      width: 76px;
+      height: 90px;
+    }
+    &__block-imgel {
+      width: 87px;
+      height: 90px; 
+    }
+    &__blockbux {
+      max-width: 714px;
+      width: 714px;
+    }
+    &__title-bl {
+      max-width: 804px;
+      width: 320px;
+    }
+    &__block-textbux {
+      width: 496px;
+      height: 100px;
+    }
+  }
+
+  .story {
+    &__block {
+      display: inline;
+      flex-direction: column;
+      max-width: 361px;
+      height: 521px;
+    }
+    &_images{
+      width: 367px;
+      height: 168px;
+      object-fit:cover;
+      border-radius: 10px 10px 0px 0px;
+    }
+    &__right {
+      width: 302px;
+      height: 383px;
+    }
+    &__block-title {
+      font-size: 18px;
+    }
+    &__block-text {
+      width: 327px;
+      max-height: 175px;
+      font-size: 14px;
+    }
+    &__block-text2 {
+      max-height: 175px;
+    }
+    &__block-text2 {
+      height: 174px;
+    }
+    &__who {
+      display: flex;
+      justify-content: start;
+    }
+    &__who-name {
+      margin-right: 126px;
+      font-size: 12px;
+      width: 129px;
+    }
+  }
+
+  .say {
+    &-slider__info {
+      width: 488px;
+    }
+    &-slider__slide {
+      width: 474px;
+      height: 328px;
+    }
+    &-slider__name {
+      margin-right: 0;
+      font-size: 18px;
+      width: 350px;
+    }
+    &-slider__work {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    &-slider__text {
+      font-size: 14px;
+      width: 434px;
+      height: 124px;
+    }
+    &-slider__brand {
+      margin-right: 76px;
+      width: 130px;
+      height: 34px;
+    }
+    &-slider__thanks-text {
+      font-size: 14px;
+    }
+    &-slider__arrow {
+      width: 31px;
+      height: 16px;
+    }
+  }
+  .say-content {
+    display: none;
+  }
+
+
+  .next2 {
+    left: 60px;
+    top: 360px;
+  }
+  .prev1 {
+    top: 360px;
+    left: 1px;
+  }
+
+  .slick-dots {
+    top: 200px;
+    left: -195px;
+  }
+  .sl__content {
+    .slick-dots {
+      top: -63px;
+      left: -190px;
+    }
+  }
+  .sl-slider {
+    width: 574px;
+    height: 328px;
+    &__info {
+      display: flex;
+      margin-bottom: 90px;
+    }
+    &__blc {
+      padding-top: 40px;
+      padding-left: 20px;
+      background-image: url(../images/src/fone.png);
+    }
+    &__image {
+      margin-right: 10px;
+      width: 93px;
+      height: 93px;
+    }
+    &__bottom {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    &__brand {
+      margin-right: 76px;
+      width: 130px;
+      height: 34px;
+    }
+    &__thanks {
+      display: flex;
+    }
+    &__thanks-text {
+      margin-right: 10px;
+    }
+    &__name {
+      margin-bottom: 10px;
+      margin-right: 177px;
+      width: 200px;
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &__date-text {
+      padding-top: 4px;
+      width: 65px;
+      color: #241D26;
+      text-align: right;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &__all {
+      display: flex;
+    }
+    &__work {
+      margin-bottom: 20px;
+      color: #848484;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &__text {
+      margin-bottom: 40px;
+      margin-right: 20px;
+      width: 434px;
+      height: 124px;
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.56px;
+    }
+    &__thanks-text {
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.56px;
+    }
+    &__arrow {
+      width: 31px;
+      height: 16px;
+    }
+    &__slide {
+      width: 574px;
+      height: 328px;
+    }
+  }
+
+  .info {
+    margin-bottom: 80px;
+  flex-direction: column-reverse;
+    &__contact {
+      margin-bottom: 40px;
+      font-size: 35px;
+    }
+    &__email {
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
+    &__send-email {
+      margin-bottom: 31px;
+      font-size: 16px;
+    }
+    &__number {
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
+    &__call-phone {
+      margin-bottom: 29px;
+      font-size: 16px;
+    }
+    &__link-img {
+      width: 25px;
+      height: 25px;
+    }
+    &__social-tg {
+      margin-right: 10px;
+    }
+    &__office-title {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    &__office-addres {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    &__map {
+      width: 575px;
+      height: 334px;
+    }
+    &__left {
+      margin-right: 30px;
+    }
+    &__application-title {
+      margin-bottom: 40px;
+      width: 575px;
+      font-size: 35px;
+    }
+    &__application-text {
+      margin-bottom: 30px;
+      width: 575px;
+      font-size: 16px;
+    }
+    &__name-text {
+      font-size: 18px;
+    }
+    &__number-form {
+      margin-right: 30px;
+      width: 272px;
+    }
+    &__email-form {
+      width: 272px;
+    }
+    &__form {
+      width: 272px;
+    }
+    &__numberemail-block {
+      display: flex;
+    }
+    &__task-text {
+      font-size: 18px;
+    }
+    &__input {
+      width: 574px;
+      height: 100px;
+      font-size: 14px;
+    }
+    &__button {
+      margin-bottom: 10px;
+    }
+    &__btn {
+      width: 215px;
+      height: 40px;
+      font-size: 16px;
+    }
+    &__button-text {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+    &__map {
+      width: 753px;
+      height: 334px;
+    }
+  }
+  .input {
+    &__name {
+      width: 574px;
+      height: 40px;
+      font-size: 14px;
+    }
+    &__number {
+      margin-right: 30px;
+      width: 272px;
+      height: 40px;
+    }
+    &__email {
+      width: 272px;
+      height: 40px;
+    }
+    &__phone-w {
+      width: 272px;
+    }
+  }
+
+  .footer {
+    height: 205px;
+    flex-wrap: wrap;
+    &__info {
+      font-size: 30px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+  }
+  .menu__option {
+    display: flex;
+  }
+  .first {
+    display: flex;
+    align-items: center;
+    order: 8;
+    margin-right: 129px;
+    &__logo {
+      margin-bottom: 138px;
+      width: 172px;
+      height: 32px;
+    }
+    &__text {
+      padding-top: 5px;
+      width: 274px;
+      height: 19px;
+      font-size: 16px;
+    }
+    &__link {
+      width: 108px;
+      height: 20px;
+      margin-right: 20px;
+    }
+  }
+  .second {
+    order: 5;
+    margin-right: 114px;
+  }
+  .third {
+    order: 4;
+    margin-right: 67px;
+  }
+  .fourth {
+    margin-right: 100px;
+    order: 1;
+    &__link-img {
+      max-width: 25px;
+      height: 25px;
+    }
+    &__btn {
+      margin-bottom: 40px;
+      width: 187px;
+      height: 40px;
+    }
+    &__call {
+      width: 141px;
+      height: 17px;
+      font-size: 13px;
+    }
+    &__phone {
+      margin-right: 10px;
+      width: 16px;
+      height: 16px;
+    }
+    &__number {
+      margin-bottom: 15px;
+    }
+    &__link-tg {
+      margin-right: 10px;
+    }
+    &__block {
+      flex-direction: column-reverse;
+      align-items: start;
+    }
+    &__links-soc {
+      margin-bottom: 15px;
+      display: flex;
+    }
+  }
+  .call__phone-red {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    top: 4px;
+    position: relative;
+  }
+  .btn-rightside {
+    display: flex;
+    width: 44px;
+    height: 30px;
+    border: none;
+    background: inherit;
+    top: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  .s__content{
+    display: none;
+  }
+}
+
+@media screen and (max-width:390px) {
+  .call__phone-red {
+    margin-right: 10px;
+    top: 0;
+    position: relative;
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+  .btn-rightside {
+    display: flex;
+    width: 34px;
+    height: 23px;
+    border: none;
+    background: inherit;
+    top: 3px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .menu__option {
+    display: flex;
+  }
+  .logo {
+    margin-left: 0;
+    width: 172px;
+    height: 32px;
+  }
+  .container {
+    width: 350px;
+    padding: 0;
+  }
+  .search {
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+  }
+  .link-block__searchsec {
+    display: flex;
+    align-items: center;
+  }
+
+  .social {
+    display: none;
+  }
+  .link-block {
+    display: flex;
+    justify-content: center;
+  }
+  .call {
+    margin-top: 9px;
+    &__phone-number {
+      display: none;
+    }
+    &__callback {
+      display: none;
+    }
+    &__phone-img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .slider {
+    margin-bottom: 0;
+    top: 25px;
+    height: 639px;
+    background-image: url('../images/src/blurfone.png');
+    
+  }
+  .swiper {
+    &__title {
+      width: 339px;
+      font-size: 25px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    &__text {
+      margin-left: 20px;
+    }
+    &__button {
+      width: 311px;
+      margin-left: 20px;
+    }
+    &__button-text {
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+  }
+  .next {
+    right: 1130px;
+  }
+  .prev {
+    right: 1190px;
+  }
+
+  .work{
+    width: 350px;
+    height: 972px;
+    margin-bottom: 0;
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    &__left {
+      margin-top: 200px;
+      position: relative;
+      top: 73px;
+      height: 420px;
+    }
+    &__title {
+      margin-left: 40px;
+      top: -380px;
+      width: 350px;
+      font-size: 25px;
+    }
+    &__text-top {
+      margin-left: 40px;
+      width: 350px;
+    }
+    &__text-center {
+      margin-left: 40px;
+      width: 350px;
+    }
+    &__text-bottom {
+      margin-left: 40px;
+      width: 350px;
+    }
+    &__button {
+      position: relative;
+      top: 200px;
+      margin-top: 10px;
+      margin-left: 40px;
+      width: 287px;
+      height: 50px;
+      right: -65px;
+    }
+    &__circles1 {
+      width: 147px;
+      height: 147px;
+      top: 36px;
+      right: -140px;
+    }
+    &__circles2 {
+      width: 212px;
+      height: 212px;
+      right: 1px;
+      top: -21px;
+    }
+    &__circles3 {
+      width: 147px;
+      height: 147px;
+      top: -88px;
+      right: -140px;
+    }
+  }
+
+
+  .help {
+    &__all {
+      margin-bottom: 40px
+    }
+    &__title {
+      margin-top: 345px;
+      margin-bottom: 30px;
+    }
+    &__title-text {
+      font-size: 35px;
+    }
+    &__block-top {
+      margin-bottom: 20px;
+      width: 350px;
+      max-height: 413px;
+    }
+    &__block-bottom {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+      height: 433px;
+    }
+    &__block-imgbux {
+      margin-bottom: 20px;
+      width: 76px;
+      height: 90px;
+    }
+    &__block-imgel {
+      margin-bottom: 20px;
+      width: 87px;
+      height: 90px;
+    }
+    &__block-title {
+      font-size: 20px;
+    }
+    &__block-tbux {
+      margin-bottom: 40px;
+      margin-right: 20px;
+      max-width: 310px;
+      height: 120px;
+      font-size: 14px;
+    }
+    &__block-img-calculate {
+      width: 90px;
+      height: 120px;
+    }
+    &__block-imgcase {
+      margin-bottom: 20px;
+      width: 89px;
+      height: 70px;
+    }
+    &__block-textotchet {
+      margin-bottom: 12px;
+      max-width: 310px;
+      height: 100px;
+      font-size: 14px;
+      margin-right: 20px;
+    }
+    &__block-textel {
+      margin-bottom: 22px;
+      max-width: 310px;
+      height: 111px;
+      font-size: 14px;
+    }
+    &__block-textdoc {
+      margin-right: 20px;
+      margin-bottom: 15px;
+      max-width: 310px;
+      height: 140px;
+      font-size: 14px;
+
+    }
+    &__block-textbux {
+      margin-bottom: 20px;
+      max-width: 310px;
+      height: 160px;
+      font-size: 14px;
+    }
+    &__blockfile {
+      width: 90px;
+      height: 90px;
+    }
+    &__button {
+      margin-left: 110px;
+    }
+    &__all-button {
+      margin-top: 10px;
+      margin-bottom: 60px;
+      margin-right: 20px;
+    }
+  }
+  .story {
+    &__block {
+      max-width: 350px;
+      height: 537px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 0;
+      margin-right: 0;
+    }
+    &_images{
+      width: 350px;
+      height: 168px;
+      object-fit: cover;
+      border-radius: 10px 10px 0px 0px;
+    }
+    &__right {
+      padding-top: 25px;
+      padding-left: 20px;
+    }
+    &__right2 {
+      margin-left: 20px;
+      padding-bottom: 0;
+      padding-left: 0;
+      height: 247px;
+      width: 310px;
+    }
+    &__block-text2 {
+      width: 310px;
+      height: 137px;
+      margin-bottom: 30px;
+    }
+    &__block-text3 {
+      width: 310px;
+      height: 104px;
+      margin-bottom: 35px;
+    }
+    &__block-text4 {
+      width: 310px;
+      height: 137px;
+      margin-bottom: 35px;
+    }
+    &__title {
+      margin-bottom: 40px;
+      font-size: 25px;
+    }
+    &__block-text {
+      width: 310px;
+      font-size: 14px;
+
+    }
+    &__who {
+      display: flex;
+      justify-content: start;
+    }
+    &__who-name {
+      margin-right: 67px;
+      font-size: 12px;
+      width: 129px;
+    }
+  }
+  .block1 {
+    margin-bottom: 20px;
+    order: 4;
+    width: 350px;
+    height: 537px;
+  }
+  .block2 {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 470px;
+    order: 3;
+  }
+  .block3 {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 416px;
+    order: 2;
+  }
+  .block4 {
+    width: 350px;
+    height: 449px;
+    order: -1;
+  }
+  .say {
+    display: none;
+    &-content {
+      display: none;
+      max-width: 390px;
+    }
+    &-slider__date-text {
+      font-size: 14px;
+      width: 69px;
+      height: 16px;
+    }
+    &__title {
+      margin-bottom: 40px;
+      font-size: 25px;
+    }
+    &-slider__image {
+      width: 50px;
+      height: 50px;
+    }
+    &-slider__info {
+      padding: 0;
+      width: 350px;
+      height: 374px;
+    }
+    &-slider__slide {
+      width: 474px;
+      height: 328px;
+      display: flex;
+  flex-direction: column;
+    }
+    &-slider__name {
+      margin-right: 0;
+      font-size: 18px;
+      width: 238px;
+    }
+    &-slider__work {
+      font-size: 14px;
+    }
+    &-slider__text {
+      font-size: 14px;
+      width: 310px;
+      height: 153px;
+    }
+    &-slider__brand {
+      width: 1px;
+      height: 1px;
+      margin-right: 0;
+    }
+    &-slider__thanks-text {
+      width: 187px;
+      height: 26px;
+      font-size: 14px;
+    }
+    &-slider__arrow {
+      width: 31px;
+      height: 16px;
+    }
+    &-slider__slide {
+      margin-right: 200px;
+      overflow: hidden;
+      width: 350px;
+      height: 374px;
+    }
+  }
+
+  .sl__content {
+ display: none;
+  }
+  .s__content {
+    display: block;
+    .slick-dots {
+      border-radius: 130px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 7px;
+      top: -70px;
+      position: relative;
+    }
+    .next2 {
+      left: 310px;
+      top: 400px;
+    }
+    .prev1 {
+      top: 400px;
+    }
+  }
+  .s-slider {
+    display: flex;
+    &__op {
+      display: flex;
+      text-align: center;
+    }
+    &__slide {
+      display: flex;
+    }
+    &__info {
+      margin-bottom: 111px;
+      width: 350px;
+      height: 374px;
+      padding-left: 20px;
+      padding-top: 15px;
+      background-image: url('../images/src/fonee.png');
+    }
+    &__image {
+      margin-right: 15px;
+      margin-bottom: 10px;
+      width: 50px;
+      height: 50px;
+      min-width: 50px;
+    }
+    &__brand {
+      margin-top: 25px;
+      width: 100px;
+      height: 26px;
+    }
+    &__date-text {
+      padding-bottom: 50px;
+      width: 69px;
+      height: 16px;
+      font-size: 14px;
+    }
+    &__name {
+      margin-bottom: 10px;
+      width: 238px;
+      height: 23px;
+      font-size: 18px;
+    }
+    &__brand {
+      margin-right: 76px;
+    }
+    &__work {
+      margin-bottom: 20px;
+      color: #848484;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &__text {
+      margin-bottom: 20px;
+      max-width: 310px;
+      max-height: 153px;
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.56px;
+    }
+    &__all {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: flex-end;
+    }
+    &__thanks {
+      margin-left: 82px;
+      display: flex;
+    }
+    &__thanks-text {
+      margin-right: 10px;
+      width: 187px;
+      height: 26px;
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    &__arrow {
+      width: 31px;
+      height: 16px;
+    }
+  }
+.content {
+  .slick-dots {
+    border-radius: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -3px;
+    top: -296px;
+    position: relative;
+  }
+  .next {
+    right: -333px;
+    top: -271px;
+    position: relative;
+  }
+  .prev {
+    right: -20px;
+    top: 436px;
+    position: relative;
+  }
+}
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -18px;
+    top: -296px;
+    position: relative;
+  }
+  .slick-slide {
+    width: 350px;
+    height: 374px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column-reverse;
+    &__contact {
+      margin-bottom: 35px;
+      font-size: 25px;
+    }
+    &__email {
+      margin-bottom: 5px;
+      font-size: 20px;
+    }
+    &__send-email {
+      margin-bottom: 23px;
+      font-size: 14px;
+    }
+    &__number {
+      margin-bottom: 11px;
+      font-size: 20px;
+    }
+    &__call-phone {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    &__link-img {
+      margin-bottom: 5px;
+      width: 30px;
+      height: 30px;
+    }
+    &__social-tg {
+      margin-right: 10px;
+    }
+    &__office-title {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    &__write {
+      width: 349px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    &__office-title {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    &__office-addres {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    &__map {
+      width: 350px;
+      height: 334px;
+    }
+    &__left {
+      margin-right: 30px;
+    }
+    &__application-title {
+      margin-bottom: 15px;
+      width: 349px;
+      font-size: 32px;
+    }
+    &__application-text {
+      margin-bottom: 20px;
+      width: 349px;
+      font-size: 14px;
+    }
+    &__name-text {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    &__number-form {
+      width: 272px;
+    }
+    &__email-form {
+      width: 272px;
+    }
+    &__form {
+      margin-bottom: 0;
+      width: 350px;
+    }
+    &__numberemail-block {
+      display: inline;
+    }
+    &__task-text {
+      font-size: 18px;
+    }
+    &__input {
+      width: 574px;
+      height: 100px;
+      font-size: 14px;
+    }
+    &__button {
+      margin-bottom: 10px;
+    }
+    &__btn {
+      margin-left: 135px;
+      width: 215px;
+      height: 40px;
+      font-size: 16px;
+    }
+    &__button-text {
+      font-size: 14px;
+      text-align: right;
+      margin-bottom: 70px;
+      width: 348px;
+      height: 40px;
+    }
+    &__task-text {
+      margin-bottom: 10px;
+      font-size: 14px;
+      width: 349px;
+    }
+  }
+  .input {
+    &__name {
+      margin-bottom: 15px;
+      width: 350px;
+      height: 40px;
+      font-size: 14px;
+    }
+    &__number {
+      margin-bottom: 15px;
+      width: 350px;
+      height: 40px;
+    }
+    &__email {
+      margin-bottom: 15px;
+      width: 350px;
+      height: 40px;
+    }
+    &__phone-w {
+      width: 272px;
+    }
+    &__task {
+      margin-bottom: 30px;
+      width: 350px;
+      height: 100px;
+      font-size: 13px;
+    }
+    &__task::placeholder {
+      width: 317px;
+      height: 37px;
+    }
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    &__info {
+      font-size: 30px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+  }
+
+  .first {
+    display: flex;
+    margin-right: 0;
+    order: 7;
+    &__link {
+      margin-bottom: 0;
+    }
+    &__logo {
+      margin-right: 25px;
+      margin-bottom: 25px;
+      width: 108px;
+      height: 20px;
+    }
+    &__text {
+      width: 217px;
+      height: 11px;
+      font-size: 14px;
+    }
+  }
+  .second {
+    margin-bottom: 30px;
+    order: 4;
+
+  }
+  .third {
+    margin-bottom: 30px;
+    order: 3;
+    &__info {
+      color: #848484;
+      font-family: Gilroy;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .fourth {
+    order: -2;
+    &__contact {
+      margin-bottom: 19px;
+      color: #848484;
+      font-family: Montserrat;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      &::before {
+        content: '';
+        position: relative;
+        left: -21px;
+        top: -40px;
+        width: 390px;
+        height: 1px;
+        background: #848484;
+        bottom: 0;
+        display: inline-block;
+      }
+    }
+    &__email {
+      color: #241D26;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    &__number {
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.6px;
+    }
+    &__block {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: start;
+    }
+    &__links-soc {
+      display: flex;
+      margin-bottom: 15px;
+    }
+    &__link-img {
+      max-width: 25px;
+      height: 25px;
+    }
+    &__link-tg {
+      margin-right: 10px;
+    }
+    &__btn {
+      padding-left: 10px;
+      margin-bottom: 30px;
+      width: 187px;
+      height: 40px;
+    }
+    &__call {
+      width: 141px;
+      height: 17px;
+      font-size: 13px;
+    }
+    &__phone {
+      margin-right: 10px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
