@@ -22,6 +22,28 @@ $(".autoplay").slick({
   autoplaySpeed: 5000
 });
 
+$(".slaidder").slick({
+  dots: true,
+  speed: 1000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow: "<img src='../images/src/ar-l.svg' class='prev1' alt='1'>",
+  nextArrow: "<img src='../images/src/ar-r.svg' class='next2' alt='2'>",
+  autoplay: true,
+  autoplaySpeed: 8000
+});
+
+$(".slaidders").slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow: "<img src='../images/src/ar-l.svg' class='prev1' alt='1'>",
+  nextArrow: "<img src='../images/src/ar-r.svg' class='next2' alt='2'>",
+  autoplay: true,
+  autoplaySpeed: 5000
+});
 
 function init() {
   let map = new ymaps.Map('info__map', {
