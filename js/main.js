@@ -4,8 +4,8 @@ $(".slider").slick({
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  prevArrow: "<img src='../images/src/ar-l.svg' class='prev' alt='1'>",
-  nextArrow: "<img src='../images/src/ar-r.svg' class='next' alt='2'>",
+  prevArrow: "<img src='images/src/ar-l.svg' class='prev' alt='1'>",
+  nextArrow: "<img src='images/src/ar-r.svg' class='next' alt='2'>",
     autoplay: true,
   autoplaySpeed: 5000
 });
@@ -16,8 +16,8 @@ $(".autoplay").slick({
   speed: 500,
   slidesToShow: 2,
   slidesToScroll: 1,
-  prevArrow: "<img src='../images/src/ar-l.svg' class='prev1' alt='1'>",
-  nextArrow: "<img src='../images/src/ar-r.svg' class='next2' alt='2'>",
+  prevArrow: "<img src='images/src/ar-l.svg' class='prev1' alt='1'>",
+  nextArrow: "<img src='images/src/ar-r.svg' class='next2' alt='2'>",
   autoplay: true,
   autoplaySpeed: 5000
 });
@@ -27,8 +27,8 @@ $(".slaidder").slick({
   speed: 1000,
   slidesToShow: 1,
   slidesToScroll: 1,
-  prevArrow: "<img src='../images/src/ar-l.svg' class='prev1' alt='1'>",
-  nextArrow: "<img src='../images/src/ar-r.svg' class='next2' alt='2'>",
+  prevArrow: "<img src='images/src/ar-l.svg' class='prev1' alt='1'>",
+  nextArrow: "<img src='images/src/ar-r.svg' class='next2' alt='2'>",
   autoplay: true,
   autoplaySpeed: 8000
 });
@@ -39,8 +39,8 @@ $(".slaidders").slick({
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  prevArrow: "<img src='../images/src/ar-l.svg' class='prev1' alt='1'>",
-  nextArrow: "<img src='../images/src/ar-r.svg' class='next2' alt='2'>",
+  prevArrow: "<img src='images/src/ar-l.svg' class='prev1' alt='1'>",
+  nextArrow: "<img src='images/src/ar-r.svg' class='next2' alt='2'>",
   autoplay: true,
   autoplaySpeed: 5000
 });
