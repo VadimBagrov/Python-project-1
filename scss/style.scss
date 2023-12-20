@@ -15,6 +15,16 @@
     height: 44px;
   }
 }
+
+.rightside {
+  display: none;
+}
+.search__icon-phone {
+  display: none;
+}
+.sld-content {
+  display: none;
+}
 .menu__option {
   display: none;
 }
@@ -109,7 +119,7 @@
   margin-top: -90px;
   margin-bottom: 60px;
   &__left {
-    margin-right: 143px;
+    margin-right: 260px;
   }
   &__block {
     width: 700px;
@@ -124,7 +134,7 @@
   &__title {
     position: relative;
     margin-bottom: 43px;
-    margin-left: 20px;
+    margin-left: 0;
     color: #241D26;
     font-family: Montserrat;
     font-size: 50px;
@@ -162,7 +172,7 @@
     z-index: 2;
     position: relative;
     top: 175px;
-    right: -188px;
+    right: -280px;
     transition: 1s;
   }
   &__circles1:hover {
@@ -172,7 +182,7 @@
     z-index: 1;
     position: relative;
     top: 17px;
-    right: 66px;
+    right: 14px;
     transition: 1s;
   }
   &__circles2:hover {
@@ -182,7 +192,7 @@
     z-index: 2;
     position: relative;
     top: -174px;
-    right: -188px;
+    right: -280px;
     transition: 1s;
   }
   &__circles3:hover {
@@ -466,6 +476,12 @@
 .say {
   &-slider {
     margin-bottom: 70px;
+  }
+  &-slider__rectangle {
+    position: relative;
+    top: 61px;
+    right: -98px;
+    z-index: 4;
   }
   &__title {
     margin-bottom: 28px;
@@ -1001,11 +1017,11 @@
 }
 
 .next {
-  top: 640px;
+  top: 630px;
   right: 1540px;
 }
 .prev {
-  top: 640px;
+  top: 630px;
   right: 1600px;
 }
 .slick-arrow {
@@ -1038,7 +1054,7 @@ display: none;
   justify-content: center;
   align-items: center;
   right: 500px;
-  top: 11px;
+  top: -1px;
   position: relative;
   li{
     margin-right: 5px;
@@ -1065,7 +1081,12 @@ display: none;
 }
 
 @media screen and (max-width:1280px) {
-
+  .rightside {
+    display: none;
+  }
+  .sld-content {
+    display: none;
+  }
   .call__phone-red {
     display: none;
     }
@@ -1082,9 +1103,8 @@ display: none;
     margin-bottom: 20px;
   }
   .logo {
-    margin-left: 20px;
-    width: 165px;
-    height: 30px;
+    width: 172px;
+    height: 32px;
   }
   .fourth__links-soc {
     display: flex;
@@ -1170,11 +1190,6 @@ display: none;
     top: 9px;
   }
 
-    .search {
-    margin-right: 20px;
-    width: 25px;
-    height: 25px;
-  }
   .link-block__searchsec {
     display: flex;
     align-items: center;
@@ -1361,13 +1376,31 @@ display: none;
       top: 9px;
     }
   }
+.link {
+  color: #848484;
+  text-decoration: underline;
+}
+
+.politiks {
+  text-decoration: underline;
+}
+
   .say {
+    &__title {
+      margin-bottom: 1px;
+    }
     &-slider__info {
       width: 488px;
     }
     &-slider__slide {
       width: 474px;
       height: 328px;
+    }
+    &-slider__image {
+      width: 93px;
+      height: 93px;
+      top: 21px;
+      position: absolute;
     }
     &-slider__name {
       margin-right: 0;
@@ -1561,14 +1594,26 @@ display: none;
 }
 
 @media screen and (max-width:834px) {
-  .help__blocks {
-    margin-left: 10px;
-  }
-  .sl__content{
-    display: flex;
+  .sld-content {
+    display: block;
   }
   .menu__option {
     display: none;
+  }
+  .btn-rightside{
+    display: none;
+      width: 34px;
+      height: 23px;
+      border: none;
+      background: inherit;
+      top: 3px;
+      position: relative;
+      cursor: pointer;
+    }
+  .slick-slider {
+    position: relative;
+  display: block;
+  box-sizing: border-box;
   }
   .header {
     padding-top: 15px;
@@ -1658,12 +1703,6 @@ display: none;
       height: 15px;
     }
   }
-
-  .search {
-  margin-right: 20px;
-  width: 25px;
-  height: 25px;
-  }
   .link-block__searchsec {
     display: flex;
     align-items: center;
@@ -1745,7 +1784,7 @@ display: none;
       letter-spacing: 0.56px;
       margin-bottom: 25px;
     }
-    &__text-botton {
+    &__text-bottom {
       width: 431px;
       color: #241D26;
       font-family: Montserrat;
@@ -1756,16 +1795,16 @@ display: none;
       letter-spacing: 0.56px;
     }
     &__block-bux {
-      width: 357px;
       margin-right: 0;
     }
     &__block-top {
-      width: 357px;
+      width: 367px;
       margin-right: 0;
     }
     &__all {
       display: flex;
       align-items: center;
+      margin-right: 30px;
       width: 257px;
       height: 20px;
       margin: 15px;
@@ -1831,7 +1870,7 @@ display: none;
       font-size: 35px;
     }
     &__block-top {
-      width: 347px;
+      width: 367px;
       height: 399px;
     }
     &__block-el {
@@ -1841,8 +1880,12 @@ display: none;
       display: flex;
       flex-direction: column;
       margin-bottom: 30px;
-      width: 347px;
+      margin-right: 0;
+      width: 367px;
       height: 433px;
+    }
+    &__block-bux {
+      margin-right: 0;
     }
     &__block-el {
       height: 433px;
@@ -1875,7 +1918,7 @@ display: none;
       font-size: 14px;
     }
     &__blocknul {
-      width: 347px;
+      width: 367px;
       margin-right: 20px;
     }
     &__block-textel {
@@ -1917,8 +1960,8 @@ display: none;
       height: 90px; 
     }
     &__blockbux {
-      max-width: 714px;
-      width: 714px;
+      max-width: 754px;
+      width: 754px;
     }
     &__title-bl {
       max-width: 804px;
@@ -1928,6 +1971,10 @@ display: none;
       width: 496px;
       height: 100px;
     }
+  }
+
+  .say__title {
+    margin-bottom: 20px;
   }
 
   .story {
@@ -2022,26 +2069,31 @@ display: none;
   }
 
   .slick-dots {
-    top: 200px;
-    left: -195px;
+    top: -42px;
+    left: -187px;
   }
   .sl__content {
+    margin: auto;
+  width: 100%;
+  max-width: 834px;
+  box-sizing: border-box;
     .slick-dots {
       top: -63px;
       left: -190px;
     }
   }
+
+
+
   .sl-slider {
-    width: 574px;
-    height: 328px;
-    &__info {
-      display: flex;
-      margin-bottom: 90px;
-    }
     &__blc {
+      width: 474px;
+      height: 328px;
+      max-width: 474px;
       padding-top: 40px;
       padding-left: 20px;
       background-image: url(../images/src/fone.png);
+      background-size: cover;
     }
     &__image {
       margin-right: 10px;
@@ -2050,6 +2102,7 @@ display: none;
     }
     &__bottom {
       display: flex;
+      width: 454px;
       margin-bottom: 20px;
     }
     &__brand {
@@ -2059,6 +2112,7 @@ display: none;
     }
     &__thanks {
       display: flex;
+      width: 235px;
     }
     &__thanks-text {
       margin-right: 10px;
@@ -2087,8 +2141,10 @@ display: none;
     }
     &__all {
       display: flex;
+      width: 442px;
     }
     &__work {
+      width: 454px;
       margin-bottom: 20px;
       color: #848484;
       font-family: Montserrat;
@@ -2124,10 +2180,117 @@ display: none;
       height: 16px;
     }
     &__slide {
-      width: 574px;
+      display: flex;
+      margin-bottom: 90px;
+      max-width: 540px;
       height: 328px;
     }
   }
+
+  .sdl-content {
+    margin: auto;
+    width: 100%;
+    max-width: 1470px;
+    box-sizing: border-box;
+  }
+
+.sld-slide {
+  display: flex;
+  max-width: 900px;
+  height: 328px;
+
+}
+.sld{
+  &__img {
+    position: relative;
+    top: 15px;
+    margin-right: 7px;
+    width: 90px;
+    height: 90px;
+  }
+  &__right {
+    position: relative;
+    top: -76px;
+    right: -100px;
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 474px;
+    height: 328px;
+    background-image: url(../images/src/fone.png);
+    background-size: cover;
+  }
+  &__info {
+    display: flex;
+  }
+  &__work {
+    margin-bottom: 20px;
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__name {
+    margin-right: 170px;
+    margin-bottom: 10px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__date-text {
+    color: #241D26;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__text {
+    margin-bottom: 40px;
+    width: 434px;
+    height: 124px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px;
+  }
+  &__bottom {
+    display: flex;
+    text-align: center;
+  }
+  &__brand {
+    margin-right: 76px;
+    width: 130px;
+    height: 34px;
+  }
+  &__thanks {
+    display: flex;
+    margin-top: 6px;
+  }
+  &__thanks-text {
+    margin-right: 10px;
+    color: #241D26;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &__arrow {
+    margin-top: 2px;
+    width: 31px;
+    height: 16px;
+  }
+}
+
 
   .info {
     margin-bottom: 80px;
@@ -2333,22 +2496,15 @@ display: none;
     top: 4px;
     position: relative;
   }
-  .btn-rightside {
-    display: flex;
-    width: 44px;
-    height: 30px;
-    border: none;
-    background: inherit;
-    top: 10px;
-    position: relative;
-    cursor: pointer;
-  }
   .s__content{
     display: none;
   }
 }
 
 @media screen and (max-width:390px) {
+  .sld-content {
+    display: none;
+  }
   .call__phone-red {
     margin-right: 10px;
     top: 0;
@@ -2356,6 +2512,9 @@ display: none;
     display: flex;
     width: 30px;
     height: 30px;
+  }
+  .rightside {
+    display: block;
   }
   .btn-rightside {
     display: flex;
@@ -2409,6 +2568,131 @@ display: none;
       width: 25px;
       height: 25px;
     }
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-right: 56px;
+    img {
+      max-width: 165px;
+      max-height: 30px;
+    }
+  }
+  .btn-rightside {
+    width: 44px;
+    height: 30px;
+    border: none;
+    background: inherit;
+    cursor: pointer;
+  }
+  .right-side {
+    max-width: 34px;
+    max-height: 23px;
+  }
+  .search {
+    margin-right: 70px;
+    &__link {
+      margin-right: 20px;
+    }
+    &__link-img {
+      max-width: 25px;
+      max-width: 25px;
+    }
+    &__icon-phone {
+      display: block;
+      margin-right: 20px;
+    }
+    &__phone-red {
+      max-width: 30px;
+      max-height: 30px;
+    }
+  }
+  .btn-close {
+    display: none;
+    position: relative;
+    right: 37px;
+    width: 26px;
+    height: 26px;
+    border: none;
+    background: inherit;
+    cursor: pointer;
+    &--open {
+      display: flex;
+    }
+  }
+  .btn-rightside {
+    display: block;
+    min-width: 39px;
+    width: 29px;
+    min-height: 34px;
+    background-color: transparent;
+    background-image: url('../images/src/rightside.png');
+    background-repeat: no-repeat;
+    &--close {
+      background-image: url('../images/src/close.svg');
+    }
+  }
+
+  .rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
+    width: 418px;
+    height: 546px;
+    background-color: #fff;
+    top: 308px;
+    left: -406px;
+    z-index: 5;
+    transform: translatey(-900px);
+    &--open {
+      transform: translatey(5px);
+    }
+    transition: all .5s;
+    &__social {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    &__list-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &__list-item {
+      margin-bottom: 37px;
+      width: 165px;
+    }
+    &__list-link {
+      color: #241D26;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.96px;
+    }
+    &__link-img {
+      width: 40px;
+      height: 40px;
+    }
+    &__nav {
+      margin-bottom: 50px;
+    }
+    &__number {
+      color: #241D26;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.96px;
+    }
+  }
+  .social__link-vk {
+    margin-right: 0;
   }
   .slider {
     margin-bottom: 0;
@@ -2506,7 +2790,8 @@ display: none;
 
   .help {
     &__all {
-      margin-bottom: 40px
+      margin-bottom: 40px;
+      margin-right: 0;
     }
     &__title {
       margin-top: 345px;
@@ -2519,6 +2804,7 @@ display: none;
       margin-bottom: 20px;
       width: 350px;
       max-height: 413px;
+      margin-right: 0;
     }
     &__block-bottom {
       margin-bottom: 20px;
@@ -2593,7 +2879,10 @@ display: none;
     &__all-button {
       margin-top: 10px;
       margin-bottom: 60px;
-      margin-right: 20px;
+      margin-right: 0;
+    }
+    &__blocks {
+      margin-left: 0;
     }
   }
   .story {

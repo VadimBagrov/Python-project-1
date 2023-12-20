@@ -1,3 +1,12 @@
+
+$('.btn-rightside').on('click', function () {
+  $('.rightside').toggleClass('rightside--open');
+  $('.btn-rightside').toggleClass('btn-rightside--close');
+});
+
+
+
+
 $(".slider").slick({
   dots: true,
   infinite: true,
@@ -22,9 +31,10 @@ $(".autoplay").slick({
   autoplaySpeed: 5000
 });
 
-$(".slaidder").slick({
+$(".sld").slick({
   dots: true,
-  speed: 1000,
+  infinite: true,
+  speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
   prevArrow: "<img src='images/src/ar-l.svg' class='prev1' alt='1'>",
