@@ -4,9 +4,6 @@ $('.btn-rightside').on('click', function () {
   $('.btn-rightside').toggleClass('btn-rightside--close');
 });
 
-
-
-
 $(".slider").slick({
   dots: true,
   infinite: true,

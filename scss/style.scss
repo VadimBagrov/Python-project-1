@@ -497,7 +497,7 @@
     margin-bottom: 40px;
     padding-top: 40px;
     padding-left: 20px;
-    background-image: url(../images/src/fone.png);
+    background-image: url('../images/src/fone.png');
     width: 582px;
     height: 362px;
     transform: translateX(20%);
@@ -1054,7 +1054,7 @@ display: none;
   justify-content: center;
   align-items: center;
   right: 500px;
-  top: -1px;
+  top: -10px;
   position: relative;
   li{
     margin-right: 5px;
@@ -1144,7 +1144,7 @@ display: none;
     margin-bottom: 0;
     .slick-dots {
       right: 398px;
-      top: 50px;
+      top: 40px;
     }
   }
   .work{
@@ -1187,7 +1187,7 @@ display: none;
   }
   .slick-dots {
     right: 385px;
-    top: 9px;
+    top: -9px;
   }
 
   .link-block__searchsec {
